@@ -31,7 +31,7 @@ async function main() {
   };
 
   urlProjectOne = "https://api.nanowrimo.org/projects/2192897";
-  urlProjectTwo = "https://api.nanowrimo.org/projects/2192897";
+  urlProjectTwo = "https://api.nanowrimo.org/projects/2198055";
   project1 = "";
   project2 = "";
 
