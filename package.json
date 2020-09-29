@@ -12,5 +12,17 @@
     "heroku"
   ],
   "author": "sylvivia",
-  "license": "CC"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylvivia/pebble-fetch-nano-word-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sylvivia/pebble-fetch-nano-word-count/issues"
+  },
+  "homepage": "https://github.com/sylvivia/pebble-fetch-nano-word-count#readme"
 }
