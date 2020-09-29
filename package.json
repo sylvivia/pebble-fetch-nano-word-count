@@ -4,6 +4,7 @@
   "description": "This example is so rad.",
   "main": "script.js",
   "scripts": {
+    "start": "node script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
