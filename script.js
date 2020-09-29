@@ -21,12 +21,11 @@ server.listen(process.env.PORT);
 console.log("Server running on port " + process.env.PORT);
 
 async function main() {
-  var myAuthHeader = new Headers();
-  myAuthHeader.append("Authorization", "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDUyNDAzMTgsImlzcyI6Ik5hTm9XcmlNbyIsImF1ZCI6Im5ldzItd2Vic2l0ZS1jbGllbnQiLCJ1c2VyX2lkIjoxMTQ5NTkxLCJwZXBwZXIiOjB9.TCveOR3G2tIdCYgKWFDPYLt7xn4DXjGzpxwR6EawuW8");
-
   var requestOptions = {
     method: 'GET',
-    headers: myAuthHeader,
+    headers: {
+      Authorization: "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDUyNDAzMTgsImlzcyI6Ik5hTm9XcmlNbyIsImF1ZCI6Im5ldzItd2Vic2l0ZS1jbGllbnQiLCJ1c2VyX2lkIjoxMTQ5NTkxLCJwZXBwZXIiOjB9.TCveOR3G2tIdCYgKWFDPYLt7xn4DXjGzpxwR6EawuW8"
+    },
     redirect: 'follow'
   };
 
