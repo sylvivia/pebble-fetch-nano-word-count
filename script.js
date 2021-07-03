@@ -25,13 +25,13 @@ async function main() {
   var requestOptions = {
     method: 'GET',
     headers: {
-      Authorization: "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDUyNDAzMTgsImlzcyI6Ik5hTm9XcmlNbyIsImF1ZCI6Im5ldzItd2Vic2l0ZS1jbGllbnQiLCJ1c2VyX2lkIjoxMTQ5NTkxLCJwZXBwZXIiOjB9.TCveOR3G2tIdCYgKWFDPYLt7xn4DXjGzpxwR6EawuW8"
+      Authorization: "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjkxODQxNjYsImlzcyI6Ik5hTm9XcmlNbyIsImF1ZCI6Im5ldzItd2Vic2l0ZS1jbGllbnQiLCJ1c2VyX2lkIjoxMTQ5NTkxLCJwZXBwZXIiOjB9.bCoG9rsjRQsytRk5rhLQDSnyZTGo15bqvFNWCcv4kac"
     },
     redirect: 'follow'
   };
 
-  urlProjectOne = "https://api.nanowrimo.org/projects/2192897";
-  urlProjectTwo = "https://api.nanowrimo.org/projects/2198055";
+  urlProjectOne = "https://api.nanowrimo.org/projects/2660095";
+  urlProjectTwo = "https://api.nanowrimo.org/projects/2692672";
   project1 = "";
   project2 = "";
 
@@ -53,7 +53,6 @@ async function main() {
 
   var returnString = project1 + " / " + project2;
 
-  console.log(returnString);
   return {
     status: "ok",
     info: returnString,
